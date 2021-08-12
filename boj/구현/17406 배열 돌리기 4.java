@@ -6,8 +6,8 @@ import java.util.StringTokenizer;
 public class Main {
 	public static int N, M, K, answer=Integer.MAX_VALUE;
 	public static int [][]arr;
-	public static int [][]arrOrigin;//¿ø·¡ ¹è¿­
-	public static int [][]rot;	//r,c, s ÀÔ·Â°ª
+	public static int [][]arrOrigin;//ì›ë˜ ë°°ì—´
+	public static int [][]rot;	//r,c, s ì…ë ¥ê°’
 
 	public static int [][]choice;
 	static boolean []isSelected;	

@@ -12,7 +12,7 @@ public class Main {
 		num++;
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		String s[] = new String[num];
-		for(int j=1;j<num;j++) {	//½ºÀ§Ä¡ ÀÔ·Â¹Þ±â
+		for(int j=1;j<num;j++) {	//ìŠ¤ìœ„ì¹˜ ìž…ë ¥ë°›ê¸°
 			s[j] = st.nextToken();
 		}
 		

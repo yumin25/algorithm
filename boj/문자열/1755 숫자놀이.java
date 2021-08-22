@@ -31,13 +31,14 @@ public class Main{
 			tmp++;			
 		}
 		
-		Arrays.sort(arr, new Comparator<String>() {	//정렬
-
-			@Override
-			public int compare(String o1, String o2) {
-				return o1.compareTo(o2);
-			}
-		});
+		Arrays.sort(arr);	//정렬
+		
+//		Arrays.sort(arr, new Comparator<String>() {	//위와 같은 코드
+//			@Override
+//			public int compare(String o1, String o2) {
+//				return o1.compareTo(o2);
+//			}
+//		});
 
 		StringBuilder stringBuilder = new StringBuilder();
 		

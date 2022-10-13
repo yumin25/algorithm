@@ -22,7 +22,7 @@ public class Main {
     }	//main
 
     public static void comb(int n, int cnt, int start, int[] arr, int[] tmp) {
-        if(cnt==n) {
+        if(cnt==n) {    //n : 뽑아야 하는 숫자 개수, cnt : 이제껏 뽑은 수의 개수, start : 다음에 시작할 수
             int tmpAnswer = 0;
             for(int i=0;i<n;i++) tmpAnswer+=arr[tmp[i]];
             if(tmpAnswer==S) answer++;
